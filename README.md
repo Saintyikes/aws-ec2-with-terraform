@@ -11,9 +11,6 @@ This project demonstrates Infrastructure as Code (IaC) by provisioning an Amazon
 3. Created a project folder `terraform-ec2` and a file `main.tf`.
 4. Wrote Terraform code to launch a free-tier EC2 instance.
 
-📸 *Screenshot:*  
-![Terraform installation](screenshots/terraform-install.png)
-
 ---
 
 ## 🚀 Actions Taken
@@ -22,8 +19,8 @@ This project demonstrates Infrastructure as Code (IaC) by provisioning an Amazon
 - Ran `terraform apply` and confirmed with `yes` to create resources.
 
 📸 *Screenshot:*  
-![Terraform init output](screenshots/terraform-apply.png)
-![Terraform plan output](screenshots/terraform-apply.png)
+![Terraform init output](screenshots/terraform-init.png)
+![Terraform plan output](screenshots/terraform-plan.png)
 ![Terraform apply output](screenshots/terraform-apply.png)
 
 ---
