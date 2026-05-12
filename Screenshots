@@ -3,5 +3,5 @@ error-ami.png
 error-signature.png
 terraform-apply.png
 terraform-destroy.png
-terraform-init.png
+![Terraform init output](terraform-init.png)
 terraform-plan.png
