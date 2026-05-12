@@ -20,8 +20,8 @@ This project demonstrates Infrastructure as Code (IaC) by provisioning an Amazon
 
 📸 *Screenshot:*  
 ![Terraform init output](terraform-init.png)
-![Terraform plan output](screenshots/terraform-plan.png)
-![Terraform apply output](screenshots/terraform-apply.png)
+![Terraform plan output](terraform-plan.png)
+![Terraform apply output](terraform-apply.png)
 
 ---
 
@@ -30,13 +30,13 @@ This project demonstrates Infrastructure as Code (IaC) by provisioning an Amazon
   Cause: Incorrect AWS credentials.  
   Fix: Re-generated IAM access keys and re-ran `aws configure`.  
   📸 *Screenshot:*  
-  ![SignatureDoesNotMatch error](screenshots/error-signature.png)
+  ![SignatureDoesNotMatch error](error-signature.png)
 
 - **Error 2: InvalidAMIID.NotFound**  
   Cause: AMI ID was not valid in the chosen region.  
   Fix: Retrieved the correct Amazon Linux 2 AMI ID from AWS Console and updated `main.tf`.  
   📸 *Screenshot:*  
-  ![Invalid AMI error](screenshots/error-ami.png)
+  ![Invalid AMI error](error-ami.png)
 
 - **Observation:** Terraform sometimes appeared to “hang” after typing `yes`. Waiting a few minutes or retrying solved it.
 
@@ -48,8 +48,8 @@ This project demonstrates Infrastructure as Code (IaC) by provisioning an Amazon
 - Destroyed the instance with `terraform destroy` to avoid charges.  
 
 📸 *Screenshot:*  
-![EC2 instance running](screenshots/ec2-instance.png)
-![Terraform destroy output](screenshots/terraform-destroy.png)
+![EC2 instance running](ec2-instance.png)
+![Terraform destroy output](terraform-destroy.png)
 
 ---
 
