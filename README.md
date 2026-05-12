@@ -19,7 +19,7 @@ This project demonstrates Infrastructure as Code (IaC) by provisioning an Amazon
 - Ran `terraform apply` and confirmed with `yes` to create resources.
 
 📸 *Screenshot:*  
-![Terraform init output](screenshots/terraform-init.png)
+![Terraform init output](terraform-init.png)
 ![Terraform plan output](screenshots/terraform-plan.png)
 ![Terraform apply output](screenshots/terraform-apply.png)
 
